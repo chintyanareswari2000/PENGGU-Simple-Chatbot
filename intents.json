@@ -1,0 +1,145 @@
+{
+    "intents": [
+        {
+            "tag": "greet",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Apa kabar?",
+                "Hai"
+            ],
+            "responses": [
+                "Hai! Selamat datang di PENGGU. Ada yang bisa dibantu?",
+                "Halo! Senang bertemu denganmu. Ada yang bisa PENGGU bantu?"
+            ]
+        },
+        {
+            "tag": "AnjingDiare",
+            "patterns": [
+                "Anjing muntah",
+                "Anjing nafsu makan turun, muntah dan pup lembek",
+                "Anjing nafsu makan turun, muntah dan kotoran lembek",
+                "Anjing tidak mau makan dan muntah",
+                "Anjing kotoran lembek",
+                "Anjing pup lembek",
+                "Kotoran anjingku lembek, mengalami muntah-mutah dan juga penurutan nafsu makan"
+            ],
+            "responses": [
+                "Berdasarkan gejalanya sih, kemungkinan anjingmu sedang diare. Berikan air minum yang cukup, lakukan diet sederhana dan segera diobati ya !",
+                "Kalau yang PENGGU liat, kemungkinan besar anjingmu sedang diare. Kurangi porsi makan dan beri dia air segar dan segera diobati ya!",
+                "Waduh, anjingmu terkena diare tuh! Untuk penanganan dini, beri dia air minum segar, kurangi porsi makannya dan PENGGU sarankan kamu untuk segera bawa dia ke dokter!",
+                "Anjingmu terkena diare tuh! Jangan beri dia makanan selain makanan anjing dan kurangi porsi serta beri air yang cukup ya! Segera obati anjingmu agar cepat sehat dan bisa main bareng lagi!"
+            ]
+        },
+        {
+            "tag": "AnjingSakitKulit",
+            "patterns": [
+                "Kulit anjingku mengalami kemerahan",
+                "Anjingku gatal-gatal nih",
+                "Ada ruam pada kulit anjingku",
+                "Kulit anjingku mengelupas",
+                "Kulit anjingku ada merah dan sepertinya gatal"
+            ],
+            "responses": [
+                "Menurut PENGGU, anjing kamu kemungkinan besar terkena penyakit kulit. Lebih baik segera bawa ke dokter ya agar tau sumber permasalahannya!",
+                "Wah PENGGU kasihan dengan anjingmu, sepertinya dia terkena penyakit kulit deh. Segera obati ke dokter agar tau detail penyebabnya ya!"
+            ]
+        },
+        {
+            "tag": "AnjingCacingan",
+            "patterns": [
+                "Berat badan anjingku menurun dan bulunya kusam. Bagaimana ya?",
+                "Sepertinya ada cacing pada kotoran anjingku dan pup nya ada darahnya",
+                "Sepertinya ada cacing dan darah di pup anjingku",
+                "Bulu anjingku kusam nih. Kenapa ya?",
+                "Perut anjingku membesar dan bulunya kusam"
+            ],
+            "responses":[
+                "Dari yang PENGGU lihat, sepertinya anjingmu sedang mengalami cacingan di area perut. Jangan berikan obat manusia tanpa takaran yang jelas dan segera hubungi dokter !"
+            ]
+        },
+        {
+            "tag": "KucingFlu",
+            "patterns": [
+                "Kucingku ingusan terus nih",
+                "Hidung kucingku terus mengeluarkan kotoran atau ingus",
+                "Mata kucingku berarir dan sering bersin juga",
+                "Sepertinya ada gangguan pada pernapasan kucingku",
+                "Kucingku sepertinya sulit bernapas dan sering ingusan",
+                "Kucingku selalu bersin dan tidak mau makan",
+                "Kucing bersin dan tidak nafsu makan"
+            ],
+            "responses":[
+                "Wah. Menurut PENGGU sih kucing kamu sedang terkena flu nih. Coba jemur dia sebentar di bawah sinar matahari pagi, bersihkan ingus kucing secara rutin dan bawa ke dokter ya!",
+                "Kalau yang PENGGU lihat, kucingmy sedang flu. Kamu bisa coba berikan dia makanan lebih bernutrisi, jangan mandingan kucing dulu ya! Sebaiknya bawa ke dokter secepatnya!"
+
+            ]
+        },
+        {
+            "tag": "KucingDiabetes",
+            "patterns":[
+                "Kucingku sering pipis",
+                "Kucingku sering banget buang air kecil",
+                "Kucingku hampir terus minum",
+                "Kucing terus-terusan minum",
+                "Kucingku muntah dan berat badannya turun"
+            ],
+            "responses":[
+                "Kalau analisa singkat yang PENGGU bisa berikan adalah kucingmu menunjukkan gejala diabetes. Karena gejala menjurus ke penyakit yang serius, tolong segera obati ke dokter ya!"
+            ]
+        },
+        {
+            "tag": "KucingSakitMata",
+            "patterns":[
+                "Mata kucingku mengeluarkan cairan kental",
+                "Ada cairan kental keluar dari mata kucingku",
+                "Mata kucingku juling. Kenapa ya?",
+                "Mata kucingku sayu dan banyak kotorannya"
+            ],
+            "responses":[
+                "Sepertinya kucingmu sedang ada masalah di matanya. Segera beri pertolongan pertama, bisa dengan membasuh mata kucing dengan larutan air garam untuk membunuh kuman atau bisa menggunakan larutan teh hijau. Tapi lebih baik lanjut bawa ke dokter ya!"
+                
+            ]
+        },
+        {
+            "tag": "HamsterWetTail",
+            "patterns":[
+                "Area anus hamsterku sedikit basah dan lengket",
+                "Area dekat anus hamster menjadi basah dan lengket",
+                "Hamster tidak mau makan setelah perjalanan panjang"
+            ],
+            "responses":[
+                "Kalau yang PENGGU lihat, sepertinya hamstermu sedang ada infeksi bakteri (biasa disebut WetTail) dan bisa menyebabkan diare akut nanti. Kemungkinan bisa karena stress adaptasi dengan lingkungan baru. Langsung bawa ke dokter ya!",
+                "Kemungkinan besar hamstermu sedang ada infeksi bakteri yg terlihat dari buntutnya. Segera bawa ke dokter ya, kalau kelamaan, bisa mengakibatkan diare akut!"
+            ]
+        },
+        {
+            "tag": "HamsterDiare",
+            "patterns": [
+                "Pup hamsterku berwarna hijau dan encer",
+                "Kotoran hamsterku lembek, encer dan warnanya hijau",
+                "Hamsterku pup dengan jumlah yang banyak dan teksturnya encer"
+            ],
+            "responses":[
+                "Hmmm.. Sepertinya hamstermu sendang mengalami diare. Penyebabnya bisa karena makanan yang diberi tidak pas/ kombinasi yang salah antara makanan basah dan kering. Kamu bisa langsung beri hamstermu roti kering dan nasi matang untuk pengobatan cepat."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns" : [
+                "Thankyou",
+                "Terimakasih",
+                "thx",
+                "sip thankyou",
+                "oke trimakasih",
+                "oke trimakasi",
+                "oke thx"
+            ],
+            "responses":  [
+                "Have a great day!",
+                "Wish you a good day!"
+            ]
+        }
+    ] 
+}
